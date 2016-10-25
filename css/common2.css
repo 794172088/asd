@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  font-size: 14px;
+  color: #505050;
+  line-height: 1.75em;
+  background: #ebebeb;
+  position: relative; }
+
+header {
+  width: 100%;
+  background: url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg) no-repeat;
+  height: 130px;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px; }
+  header > img {
+    line-height: 230px;
+    display: block;
+    margin: auto;
+    cursor: pointer; }
+
+.nav {
+  width: 100%;
+  background: white; }
+  .nav .show {
+    display: block;
+    text-align: center; }
+    .nav .show a {
+      text-decoration: none;
+      color: orange; }
+      .nav .show a ul li:hover {
+        color: #03ccbb;
+        cursor: pointer; }
+  .nav nav {
+    display: none;
+    list-style: none;
+    margin: auto;
+    height: 50px;
+    width: 470px;
+    text-align: center; }
+    .nav nav li {
+      display: block;
+      float: left;
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      position: relative; }
+      .nav nav li .sel {
+        position: absolute;
+        height: 2px;
+        background: orangered;
+        width: 100%;
+        left: 0px; }
+
+main {
+  width: 80%; }
+  main .post {
+    margin-left: 0px;
+    background: #ffffff;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    overflow: hidden; }
+    main .post h1 {
+      margin: 0;
+      font-size: 2.5em;
+      line-height: 1em;
+      text-align: center;
+      color: black; }
+    main .post .author {
+      text-align: center;
+      display: block;
+      text-align: center;
+      margin-top: 20px; }
+      main .post .author a {
+        color: orange; }
+    main .post img {
+      width: 100%;
+      height: 100%; }
+    main .post .post-content {
+      font-size: 1.3rem;
+      font-weight: bold;
+      line-height: 2rem;
+      margin-top: 30px; }
+    main .post .post-permalink {
+      margin-top: 30px; }
+      main .post .post-permalink a {
+        background: #e67e22;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 3px; }
+    main .post footer {
+      margin-top: 30px;
+      border-top: 1px solid #EBEBEB; }
+
+aside {
+  padding-bottom: 10px;
+  background: #ffffff;
+  margin-top: 40px;
+  width: 80%;
+  margin-left: 0px;
+  position: relative;
+  overflow: hidden; }
+  aside .widget {
+    background: #ffffff;
+    margin-bottom: 30px;
+    width: 100%; }
+    aside .widget .title {
+      margin-top: 0;
+      padding-bottom: 7px;
+      border-bottom: 1px solid #ebebeb;
+      margin-bottom: 21px;
+      position: relative;
+      font-size: 1.5rem; }
+    aside .widget .title:after {
+      content: "";
+      width: 90px;
+      height: 1px;
+      background: #e67e22;
+      position: absolute;
+      left: 0;
+      bottom: -1px; }
+    aside .widget p {
+      margin: 0 0 10px; }
+    aside .widget a {
+      color: #e67e22;
+      outline: none;
+      text-decoration: none; }
+    aside .widget .zhongwen {
+      border: 1px solid #e67e22;
+      background: #e67e22;
+      text-align: center;
+      font-weight: bold; }
+      aside .widget .zhongwen a {
+        color: white; }
+    aside .widget .content a {
+      border: 1px solid #ebebeb;
+      padding: 2px 7px;
+      color: #959595;
+      line-height: 1.5em;
+      display: inline-block;
+      margin: 0 7px 7px 0; }
+
+/*# sourceMappingURL=common2.css.map */
